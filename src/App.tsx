@@ -32,12 +32,15 @@ import TwitchFollowIcon from './00-atoms/images/TwitchFollowIcon';
 import TwitchLogoIcon from './00-atoms/images/TwitchLogoIcon';
 import TwitchSubIcon from './00-atoms/images/TwitchSubIcon';
 import YoutubeIcon from './00-atoms/images/YoutubeIcon';
+import TwitchLiveEmbeded from './00-atoms/videos/TwitchLiveEmbeded';
+import YoutubeLastVideoEmbeded from './00-atoms/videos/YoutubeLastVideoEmbeded';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-
+        <TwitchLiveEmbeded />
+        <YoutubeLastVideoEmbeded />
         <AboutIcon />
         <CalendarIcon />
         <EventsIcon />
